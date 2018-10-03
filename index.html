@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device−width, initial−scale=1.0" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,7 +27,7 @@
     </div>
   </div>
 </nav>
-<div class="container" id="contenedor">
+<div class="container" >
 	<div class="row">
 		<div class="col-xs-12 col-sm-6">
 			<h1>Laboratorio SQL</h1>
@@ -60,49 +61,51 @@
                 </div>
         	</form>	
 		</div>
-		<div class="col-xs-12 col-sm-12">
+		<div class="col-xs-12 col-sm-12" id="enLinea">
 			<a href="#" data-seleccion="ejemplos"><h4>Ejemplos</h4></a>
 			<a href="#" data-seleccion="ejercicios"><h4>Ejercicios</h4></a><hr>
 			<br>
-
-			<div class="panels" >
-	            <div class="col-xs-12 col-sm-3" >
-	            	<picture>
-	            		<img src="http://nosinmiscookies.com/wp-content/uploads/2015/05/contenido-epico-audiencia.png" class="img-responsive">
-	            	</picture>
-	            		 <p>Ejemplos de uso de las sentencias de creacion de tablas</p>
-	                <div class="icono">
-	                	<i class="fas fa-plus-circle"></i>
-	                </div>           
-	            </div>
-	            <div class="col-xs-12 col-sm-3" >
-	            	<picture>
-	                	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp8KzP3Mf0wRko603O5rzFgdpfdjnsxPJp-VtAqglK0kGDVDpeLA" class="img-responsive" >
-	                </picture>
-	                	<p>Ejemplo de uso de las sentencias de insercion de datos en la base de datos</p>  
-	                <div class="icono">
-	                	<i class="fas fa-plus-circle"></i>
-	                </div>          
-	            </div>
-	            <div class="col-xs-12 col-sm-3" >
-	            	<picture>
-	                	<img src="https://www.tramitesbasicos.com/wp-content/uploads/2018/02/consulta-numero-de-cedula-ec-778x438.jpg" class="img-responsive">
-	                </picture>
-	                <p>Ejemplo de uso de las consultas anidadas con la sentencia IN</p> 
-	                <div class="icono">
-	                	<i class="fas fa-plus-circle"></i>
-	                </div>           
-	            </div>
-	            <div class="col-xs-12 col-sm-3" >
-	            	<picture>
-	                	<img src="https://i0.wp.com/www.witigos.es/wp-content/uploads/2015/03/MySQL-Logo.png?resize=750%2C500" class="	img-responsive">
-	                </picture>
-	                <p>Ejemplo de uso de la sentencias DML en la base de datos MySQL</p>   
-	                <div class="icono">
-	                	<i class="fas fa-plus-circle"></i>
-	                </div>         
-	            </div>
-        </div>
+			<div id="contenedor" class="row">
+				<div class="panels" >
+		            <div class="col-xs-12 col-sm-3" >
+		            	<picture>
+		            		<img src="http://nosinmiscookies.com/wp-content/uploads/2015/05/contenido-epico-audiencia.png" class="img-responsive">
+		            	</picture>
+		            		 <p>Ejemplos de uso de las sentencias de creacion de tablas</p>
+		                <div class="icono">
+		                	<i class="fas fa-plus-circle"></i>
+		                </div>           
+		            </div>
+		            <div class="col-xs-12 col-sm-3" >
+		            	<picture>
+		                	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp8KzP3Mf0wRko603O5rzFgdpfdjnsxPJp-VtAqglK0kGDVDpeLA" class="img-responsive" >
+		                </picture>
+		                	<p>Ejemplo de uso de las sentencias de insercion de datos en la base de datos</p>  
+		                <div class="icono">
+		                	<i class="fas fa-plus-circle"></i>
+		                </div>          
+		            </div>
+		            <div class="col-xs-12 col-sm-3" >
+		            	<picture>
+		                	<img src="https://www.tramitesbasicos.com/wp-content/uploads/2018/02/consulta-numero-de-cedula-ec-778x438.jpg" class="img-responsive">
+		                </picture>
+		                <p>Ejemplo de uso de las consultas anidadas con la sentencia IN</p> 
+		                <div class="icono">
+		                	<i class="fas fa-plus-circle"></i>
+		                </div>           
+		            </div>
+		            <div class="col-xs-12 col-sm-3" >
+		            	<picture>
+		                	<img src="https://i0.wp.com/www.witigos.es/wp-content/uploads/2015/03/MySQL-Logo.png?resize=750%2C500" class="	img-responsive">
+		                </picture>
+		                <p>Ejemplo de uso de la sentencias DML en la base de datos MySQL</p>   
+		                <div class="icono">
+		                	<i class="fas fa-plus-circle"></i>
+		                </div>         
+		            </div>
+	       		</div>
+			</div>
+				
 		</div>
 	</div>
 </div>
